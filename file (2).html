@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Now | Graced Photobooth</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <img src="/images/graced-logo.png" alt="Graced Photobooth Logo" class="logo" />
+  <nav>
+    <a href="/">Home</a>
+    <a href="/packages">Packages</a>
+    <a href="/booking">Booking</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<section class="booking">
+  <h1>Book Your Event</h1>
+  <p>Fill out the form below and we’ll confirm your booking within 24 hours.</p>
+
+  <form action="[formspree.io](https://formspree.io/f/example)" method="POST" class="booking-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="_replyto" required />
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" />
+
+    <label for="date">Event Date</label>
+    <input type="date" id="date" name="date" required />
+
+    <label for="location">Event Location</label>
+    <input type="text" id="location" name="location" />
+
+    <label for="package">Select Package</label>
+    <select id="package" name="package">
+      <option value="Essentials">Essentials</option>
+      <option value="Premium">Premium</option>
+      <option value="Deluxe">Deluxe</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <button type="submit" class="btn">Submit Booking</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2024 Graced Photobooth • Call/Text: (209) 323‑0938</p>
+</footer>
+
+</body>
+</html>

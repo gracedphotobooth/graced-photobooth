@@ -1,0 +1,49 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+site_url: [graced-photobooth.netlify.app](https://graced-photobooth.netlify.app)
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home"
+        name: "home"
+        editor:
+          preview: false
+        fields:
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Text", name: "hero_text", widget: "string" }
+
+      - file: "packages.html"
+        label: "Packages"
+        name: "packages"
+        editor:
+          preview: false
+        fields:
+          - { label: "Essentials Text", name: "essentials_text", widget: "text" }
+          - { label: "Premium Text", name: "premium_text", widget: "text" }
+          - { label: "Deluxe Text", name: "deluxe_text", widget: "text" }
+
+      - file: "booking.html"
+        label: "Booking"
+        name: "booking"
+        editor:
+          preview: false
+        fields:
+          - { label: "Booking Intro Text", name: "booking_intro", widget: "text" }
+
+      - file: "contact.html"
+        label: "Contact"
+        name: "contact"
+        editor:
+          preview: false
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone Number", name: "phone", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }

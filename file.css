@@ -1,0 +1,188 @@
+/* ======== Graced Photobooth — Rosy Boho Theme ======== */
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f8edeb;
+  color: #5e4b46;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #8b5c54;
+}
+
+/* ===== Header ===== */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2d8d5;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 70px;
+}
+
+nav a {
+  margin: 0 15px;
+  font-weight: bold;
+  color: #5e4b46;
+}
+
+nav a:hover {
+  color: #d08a6f;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #d8a48f;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #b77a63;
+}
+
+/* ===== Hero ===== */
+.hero {
+  background-color: #f6d9d1;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #5e4b46;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+/* ===== Gallery ===== */
+.gallery {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.gallery h2 {
+  color: #5e4b46;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.gallery-grid img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* ===== Packages ===== */
+.packages {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.package-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.package {
+  background: #fff;
+  border: 2px solid #e4bfb9;
+  border-radius: 12px;
+  width: 300px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.package h2 {
+  color: #8b5c54;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #b77a63;
+}
+
+/* ===== Booking ===== */
+.booking {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.booking-form {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.booking-form label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin: 15px 0 5px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e3c2b8;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.booking-form button {
+  margin-top: 25px;
+}
+
+/* ===== Contact ===== */
+.contact {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f2d8d5;
+}
+
+.contact a {
+  color: #8b5c54;
+  font-weight: bold;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #f6d9d1;
+  color: #5e4b46;
+  margin-top: 40px;
+}
